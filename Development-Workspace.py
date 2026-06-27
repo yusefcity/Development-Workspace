@@ -89,3 +89,20 @@ def execute():
     print("Address:", identity.address)
 
     print("Interaction stored")
+
+
+if __name__ == "__main__":
+    try:
+        execute()
+    except Exception as exc:
+        print("Failure:", exc)
+
+summary = [
+    topic_a,
+    topic_b,
+    "session complete"
+]
+
+for item in summary:
+    print(item)
+```
